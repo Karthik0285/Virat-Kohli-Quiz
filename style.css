@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat',sans-serif;
+    box-sizing: border-box;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.815);
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+#virat-kohli{
+    position: relative;
+    top:20px;
+    font-size: 30px;
+}
+#x{
+    position: relative;
+    left:15px;
+    top:20px;
+    height:500px;
+}
+@media screen and (max-width: 600px) {
+    #x{
+        position: relative;
+        left: 10px; 
+        top: 30px; 
+        height:575px;
+        width:25%;
+    }
+}
+#y{
+    position: relative;
+    left:-15px;
+    top:20px;
+    height:500px;
+}
+@media screen and (max-width: 600px) {
+    #y{
+        position: relative;
+        left: -10px; 
+        top: 30px; 
+        height:575px;
+        width:25%;
+    }
+}
+.app{
+    background: rgb(0, 122, 128);
+    width:90%;
+    max-width: 600px;
+    margin:100px auto 0;
+    border-radius: 10px;
+    padding:30px;
+    border: 8px solid rgba(128, 38, 0, 0.902);
+    border-style: groove;
+    position: relative;
+    top:-60px;
+}
+@media screen and (max-width: 600px) {
+    .app{
+        width: 40%;
+        margin: 50px auto 0;
+        padding: 20px;
+        position: relative;
+        top:-20px;
+        height:575px;
+    }
+}
+.app h1{
+    font-size: 25px;
+    color:white;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+}
+@media screen and (max-width: 600px) {
+    .app h1 {
+        font-size: 15px; 
+        padding-bottom: 20px; 
+    }
+}
+.quiz{
+    padding:20px 0;
+}
+@media screen and (max-width: 600px) {
+    .quiz {
+        padding: 15px 0; 
+    }
+}
+.quiz h2{
+    font-size:15px;
+    color:white;
+    font-weight: 600;
+}
+@media screen and (max-width: 600px) {
+    .quiz h2 {
+        font-size: 15px; 
+    }
+}
+.btn{
+    background: rgb(245, 220, 179);
+    color:black;
+    font-weight: bolder;
+    width:100%;
+    border:1px solid #222;
+    padding:10px;
+    margin:10px 0;
+    text-align:left;
+    border-radius:4px;
+    cursor:pointer;
+    transition: all 0.3s;
+}
+@media screen and (max-width: 600px) {
+    .btn {
+        width: 100%; 
+        display: block; 
+    }
+}
+.btn:hover{
+    background:lightslategray;
+    color: #fff;
+}
+#next-btn{
+    background: #001e4d;
+    color:#fff;
+    font-weight: 500;
+    width:150px;
+    border:0;
+    padding:10px;
+    margin:20px auto 0;
+    border-radius:4px;
+    cursor:pointer;
+    display:none;
+}
+@media screen and (max-width: 600px) {
+    #next-btn {
+        width: 100%; 
+        margin: 15px auto 0; 
+    }
+}
+.correct{
+    background: green;
+    color: white;
+}
+.incorrect {
+  background:red;
+  color: white;
+}
+.score {
+    display: none; 
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+@media screen and (max-width: 600px) {
+    .score {
+        font-size: 15px; 
+        margin-top: 15px;
+        position: relative; 
+        left:-15px;
+    }
+}
+#x,#y{
+    border: 8px solid rgb(128, 128, 0);
+    border-style: groove;
+}
+h1{
+    color:white;
+}
